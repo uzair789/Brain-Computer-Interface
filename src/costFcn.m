@@ -7,13 +7,7 @@ function [F, G, H] = costFcn(Z,t,lambda,X,y)
 %   F: Function value
 %   G: Gradient value
 %   H: Hessian value
-%
-% @ 2011 Kiho Kwak -- kkwak@andrew.cmu.edu
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% To improve the excution speed, please program your code with matrix
-% format. It is 30 times faster than the code using the for-loop.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 2015 uzair ahmed
 
 W = Z(1:204);%1x204
 C = Z(205);%1x1

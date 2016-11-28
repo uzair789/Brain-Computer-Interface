@@ -14,8 +14,7 @@ function optLambda = getOptLambda(X, y, setPara)
 %
 % OUTPUTS:
 %   optiLamda: Optimal lamda value 
-%
-% @ 2011 Kiho Kwak -- kkwak@andrew.cmu.edu
+
 tic;
 t=setPara.t;
 T_max=setPara.T_max;
